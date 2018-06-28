@@ -36,6 +36,7 @@ public class PropertiesSupport {
      * @param defaultValue
      * @return
      */
+
     private static String getServicePropertiesValue(String key, String defaultValue) {
         return SERVICE_PROPERTIES.getProperty(key, defaultValue);
     }
